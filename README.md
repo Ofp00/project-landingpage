@@ -1,0 +1,1 @@
+This is a custom made website based on the instructions given in the "Project :Landing Page" assignment on The Odin Project.
