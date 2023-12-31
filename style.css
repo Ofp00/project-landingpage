@@ -27,3 +27,32 @@ ul {
     gap: 20px;
     list-style: none;
 }
+
+.about {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 180px;
+}
+
+.left-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.action {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 8px;
+}
