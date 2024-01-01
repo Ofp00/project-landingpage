@@ -45,7 +45,7 @@ ul {
 
 .awesome {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
     color: #F9FAF8;
     margin: 0;
 }
@@ -61,17 +61,35 @@ ul {
 }
 
 .info {
-
+    
 }
 
 .information-header {
-
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
 }
 
 .cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.tidbit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
 }
 
 .card {
-    
+    height: 150px;
+    width: 150px;
+    border: solid #3882F6;
+    border-radius: 10px;
 }
