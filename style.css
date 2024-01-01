@@ -60,10 +60,6 @@ ul {
     padding: 8px;
 }
 
-.info {
-    
-}
-
 .information-header {
     display: flex;
     justify-content: center;
@@ -92,4 +88,25 @@ ul {
     width: 150px;
     border: solid #3882F6;
     border-radius: 10px;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 70px;
+}
+
+blockquote > p {
+    font-size: 36px;
+    font-style: italic;
+    width: 900px;
+}
+
+cite {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 30px;
+    font-weight: bold;
 }
