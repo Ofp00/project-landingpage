@@ -20,6 +20,7 @@ body {
 .headertext, .herotext {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 10px 0;
 }
 
 ul {
@@ -39,12 +40,14 @@ ul {
 .left-about {
     display: flex;
     flex-direction: column;
+    width: 300px;
 }
 
 .awesome {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .action {
@@ -55,4 +58,20 @@ ul {
     border-radius: 5px;
     width: 100px;
     padding: 8px;
+}
+
+.info {
+
+}
+
+.information-header {
+
+}
+
+.cards {
+
+}
+
+.card {
+    
 }
