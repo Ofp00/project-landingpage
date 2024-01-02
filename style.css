@@ -35,6 +35,7 @@ ul {
     justify-content: space-around;
     align-items: center;
     padding: 80px 180px;
+
 }
 
 .left-about {
@@ -58,6 +59,10 @@ ul {
     border-radius: 5px;
     width: 100px;
     padding: 8px;
+}
+
+.info {
+    height: 450px;
 }
 
 .information-header {
@@ -109,4 +114,56 @@ cite {
     flex-direction: row-reverse;
     font-size: 30px;
     font-weight: bold;
+}
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.time4action {
+    background-color: #3882F6;
+    width: 700px;
+    border-radius: 5px;
+}
+
+.signuparea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.signuparea-bigtext, .signuparea-smalltext {
+    color: #F9FAF8;
+}
+
+.signuparea-bigtext {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.signuparea-smalltext {
+    margin-top: 2px;
+}
+
+.signuparea-button {
+    width: 100px;
+    height: 25px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-right: 40px;
 }
