@@ -167,3 +167,15 @@ cite {
     font-weight: bold;
     margin-right: 40px;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 10px;
+}
+
+.footer > p {
+    color: #F9FAF8;
+}
